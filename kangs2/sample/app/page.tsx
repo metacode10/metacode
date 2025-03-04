@@ -35,10 +35,7 @@ export default function Home() {
           카운터 증가
         </button>
 
-        <Link 
-          href="/login"
-          className="text-blue-600 hover:text-blue-800 underline"
-        >
+        <Link href="/login" className="text-blue-600 hover:text-blue-800 underline">
           로그인 페이지로 이동
         </Link>
 
