@@ -20,7 +20,7 @@ export default function Home() {
       <div onClick={()=> {
         console.log("click event");
         setData(data + 1);
-        setData(data2 + 1);
+        setData2(data2 + 1);
       }}>이벤트</div>
       <Link href="/login">로그인 페이지 이동</Link>
       <div>{data}{data2}</div>
