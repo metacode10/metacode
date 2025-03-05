@@ -1,0 +1,26 @@
+{
+  "name": "react-album",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.85.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.9",
+    "axios": "^1.8.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^8.0.0",
+    "react-router-dom": "^7.2.0",
+    "react-simple-toasts": "^6.1.0",
+    "recoil": "^0.7.7",
+    "sort-by": "^1.2.0"
+  }
+}
