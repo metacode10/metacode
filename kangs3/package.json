@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "react-router": "^7.2.0",
+    "react-router-dom": "^7.2.0",
+    "web-vitals": "^4.2.4"
+  }
+}
