@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+
+.black-nav {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
+
+
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom:1px solid grey;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +38,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.modal {
+  padding-left: 20px;
+  padding: 20px;
+  background-color: #eee;
+  text-align: left;
 }
 
 .App-link {
