@@ -7,3 +7,7 @@ class Amazon:
     def attack(self):
         return 'Jab!!!'
 
+    def exercise(self):
+        self.strength += 2
+        self.dexterity += 3
+        self.vitality += 1
